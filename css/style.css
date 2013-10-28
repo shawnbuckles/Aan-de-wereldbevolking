@@ -137,6 +137,26 @@ section {
     line-height: 1.8em;
 }
 
+.vraag1 {
+    background: #F1ECDF;
+}
+
+.vraag2 {
+    background: #000;
+}
+
+.vraag3 {
+    background: #F1ECDF;
+}
+
+.vraag4 {
+    background: #F1ECDF;
+}
+
+.vraag5 {
+    background: #F1ECDF;
+}
+
 /* ---------------------- */
 
 .cta {
