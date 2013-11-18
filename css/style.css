@@ -34,13 +34,11 @@ body {
 h1, h2, h3 {
     font-family: 'Helvetica Neue', Helvetica, "pragmatica-web", Arial, sans-serif;
     letter-spacing: -0.05em;
-    text-align: center;
 }
 
 h1 {
     font-size: 4em;
     text-transform: uppercase;
-    color: #BD0000;
 }
 
 h2 {
@@ -64,7 +62,6 @@ blockquote {
     line-height: 1em;
     letter-spacing: -0.05em;
     font-weight: normal;
-    text-align: center;
 }
 
 p {
@@ -72,7 +69,7 @@ p {
 }
 
 a {
-    color: #77AB59;
+    color: #36802D;
 }
 
 /* ---------------------- */
@@ -108,19 +105,14 @@ section.head, section.vragen {
 
 .head {
     background: ;
-    text-align: center;
 }
 
 .head h1 {
     line-height: 1em;
-    color: #000;
     font-size: 2.3em;
-    margin-top: 140px;
-}
+    color: #000;
 
-.head h1.l {
-    font-size: 10em;
-    margin: 0 auto;
+    margin-top: 140px;
 }
 
 .beeldmerk {
@@ -131,26 +123,20 @@ section.head, section.vragen {
 /* ---------------------- */
 
 .vragen {
-    background: ;
     height: 270px;
 }
 
-.vragen .copy-width {
+.vraag1 {
+    background: white;
+    color: #234D20;
 }
-
-.vragen ol li {
-    font-size: 1.5em;
-    line-height: 1.8em;
+.vraag2 {
+    background: #F0F7DA;
+    color: #234D20;
 }
-
-.vraag1, .vraag2, .vraag3, .vraag4, .vraag5 {
-    text-align: center;
-}
-
-.vraag5 {
-    padding-top: 100px;
-    background: #36802D;
-    color: #F0F7DA;
+.vraag3 {
+    background: #C9DF8A;
+    color: #234D20;
 }
 
 .vraag4 {
@@ -158,30 +144,21 @@ section.head, section.vragen {
     color: #F0F7DA;
 }
 
-.vraag3 {
-    background: #C9DF8A;
-    color: #234D20;
-}
-
-.vraag2 {
-    background: #F0F7DA;
-    color: #234D20;
-}
-
-.vraag1 {
-    background: white;
-    color: #234D20;
+.vraag5 {
+    background: #36802D;
+    color: #F0F7DA;
+    
+    padding-top: 100px;
 }
 
 /* ---------------------- */
 
 .cta {
-    background: #234D20;
-    color: #F0F7DA;
-    background: url('../img/bg.png');
+    background: none;
     color: black;
-    padding: 80px 0;
     text-align: left;
+
+    padding: 80px 0;
 }
 
 /* ---------------------- */
