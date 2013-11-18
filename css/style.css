@@ -65,6 +65,7 @@ blockquote {
     letter-spacing: -0.05em;
     font-weight: normal;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 p {
@@ -148,6 +149,10 @@ section {
 .vraag1, .vraag2, .vraag3, .vraag4, .vraag5 {
     background: white;
     text-align: center;
+}
+
+.vraag1 p, .vraag2 p, .vraag3 p, .vraag4 p, .vraag5 p {
+    margin: 0px;
 }
 
 .vraag1 {
