@@ -65,16 +65,14 @@ blockquote {
     letter-spacing: -0.05em;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 p {
     font-size: 1em;
-    margin-bottom: 40px;
 }
 
 a {
-    color: #036564;
+    color: #77AB59;
 }
 
 .nadruk {
@@ -88,6 +86,7 @@ a {
 
 section {
     padding: 10px 0;
+    padding-bottom: 40px;
 }
 
 .story-content {
@@ -151,30 +150,36 @@ section {
     text-align: center;
 }
 
-.vraag1 p, .vraag2 p, .vraag3 p, .vraag4 p, .vraag5 p {
-    margin: 0px;
+.vraag1 {
+    background: #234D20;
+    padding-top: 100px;
+    color: #C9DF8A;
 }
 
-.vraag1 {
-    padding-top: 100px;
+.vraag2 {
+    background: #36802D;
+    color: #C9DF8A;
 }
 
 .vraag3 {
-    background: ;
+    background: #77AB59;
+    color: #234D20;
 }
 
 .vraag4 {
-    background: ;
+    background: #C9DF8A;
+    color: #234D20;
 }
 
 .vraag5 {
-    background: ;
+    background: #F0F7DA;
+    color: #234D20;
 }
 
 /* ---------------------- */
 
 .cta {
-    background: url('../img/bg.png');
+    background: white;
     padding: 80px 0;
     text-align: left;
 }
