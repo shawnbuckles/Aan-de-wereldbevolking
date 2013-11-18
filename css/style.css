@@ -172,7 +172,7 @@ section {
 /* ---------------------- */
 
 .cta {
-    background: white;
+    background: url('../img/bg.png');
     padding: 80px 0;
 }
 
