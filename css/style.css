@@ -172,13 +172,8 @@ section {
 /* ---------------------- */
 
 .cta {
-    background: #7EBF93;
+    background: white;
     padding: 80px 0;
-    color: #ccc;
-}
-
-.cta p {
-    color: white;
 }
 
 /* ---------------------- */
