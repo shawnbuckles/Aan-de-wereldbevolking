@@ -72,7 +72,7 @@ p {
 }
 
 a {
-    color: #7EBF93;
+    color: #036564;
 }
 
 .nadruk {
@@ -149,7 +149,7 @@ section {
 }
 
 .vraag1, .vraag2, .vraag3, .vraag4, .vraag5 {
-    background: #D8C295;
+    background: ;
 
 }
 
@@ -172,7 +172,7 @@ section {
 /* ---------------------- */
 
 .cta {
-    background: #54493B;
+    background: #7EBF93;
     padding: 80px 0;
     color: #ccc;
 }
