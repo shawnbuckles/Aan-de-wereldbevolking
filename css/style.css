@@ -136,6 +136,10 @@ section {
     height: 270px;
 }
 
+.vragen p {
+    text-align: center;
+}
+
 .vragen .copy-width {
 }
 
