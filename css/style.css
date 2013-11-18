@@ -20,7 +20,7 @@ html, body {
 }
 
 body {
-    color: #CCC;
+    color: #222;
     font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
     line-height: 1.7em;
@@ -177,7 +177,8 @@ section {
     color: #ccc;
 }
 
-.cta .copy-width {
+.cta p {
+    color: white;
 }
 
 /* ---------------------- */
