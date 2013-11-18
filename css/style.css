@@ -139,10 +139,6 @@ section {
 .vragen .copy-width {
 }
 
-.vragen p {
-    text-decoration: italic;
-}
-
 .vragen ol li {
     font-size: 1.5em;
     line-height: 1.8em;
