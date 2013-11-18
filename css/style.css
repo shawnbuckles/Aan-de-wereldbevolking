@@ -150,7 +150,7 @@ section {
 
 .vraag1, .vraag2, .vraag3, .vraag4, .vraag5 {
     background: white;
-
+    text-align: center;
 }
 
 .vraag1 {
