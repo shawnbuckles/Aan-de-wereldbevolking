@@ -24,6 +24,7 @@ body {
     font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
     line-height: 1.7em;
+    text-align: center;
 }
 
 /* ---------------------- */
@@ -33,13 +34,11 @@ body {
 h1, h2, h3 {
     font-family: 'Helvetica Neue', Helvetica, "pragmatica-web", Arial, sans-serif;
     letter-spacing: -0.05em;
-    text-align: center;
 }
 
 h1 {
     font-size: 4em;
     text-transform: uppercase;
-    color: #BD0000;
 }
 
 h2 {
@@ -63,21 +62,14 @@ blockquote {
     line-height: 1em;
     letter-spacing: -0.05em;
     font-weight: normal;
-    text-align: center;
 }
 
 p {
     font-size: 1em;
-    margin-bottom: 40px;
 }
 
 a {
-    color: #7EBF93;
-}
-
-.nadruk {
-    border-bottom: solid .2em #036564;
-    padding-bottom: .06em;
+    color: #36802D;
 }
 
 /* ---------------------- */
@@ -85,7 +77,7 @@ a {
 /* lay-out */
 
 section {
-    padding: 10px 0;
+    padding: 120px;
 }
 
 .story-content {
@@ -107,77 +99,66 @@ section {
 
 /* sections */
 
+section.head, section.vragen {
+    padding: 10px 0;
+}
+
 .head {
     background: ;
-    text-align: center;
 }
 
 .head h1 {
     line-height: 1em;
-    color: #000;
     font-size: 2.3em;
-    margin-top: 140px;
-}
+    color: #000;
 
-.head h1.l {
-    font-size: 10em;
-    margin: 0 auto;
+    margin-top: 140px;
 }
 
 .beeldmerk {
     background: url('../img/beeldmerkaandewereldbevolking.png') no-repeat center;
-    height: 350px;
+    height: 380px;
 }
 
 /* ---------------------- */
 
 .vragen {
-    background: ;
     height: 270px;
 }
 
-.vragen .copy-width {
-}
-
-.vragen p {
-    text-decoration: italic;
-}
-
-.vragen ol li {
-    font-size: 1.5em;
-    line-height: 1.8em;
-}
-
-.vraag1, .vraag2, .vraag3, .vraag4, .vraag5 {
-    background: #D8C295;
-
-}
-
 .vraag1 {
-    padding-top: 100px;
+    background: white;
+    color: #234D20;
 }
-
+.vraag2 {
+    background: #F0F7DA;
+    color: #234D20;
+}
 .vraag3 {
-    background: ;
+    background: #C9DF8A;
+    color: #234D20;
 }
 
 .vraag4 {
-    background: ;
+    background: #77AB59;
+    color: #F0F7DA;
 }
 
 .vraag5 {
-    background: ;
+    background: #36802D;
+    color: #F0F7DA;
+    
+    padding-top: 100px;
 }
 
 /* ---------------------- */
 
 .cta {
-    background: #54493B;
-    padding: 80px 0;
-    color: #ccc;
-}
+    background: none;
+    color: black;
+    text-align: left;
 
-.cta .copy-width {
+    padding: 80px 0;
 }
 
 /* ---------------------- */
